@@ -27,11 +27,11 @@ int main()
             r[i] = silk[i][j+2];
         }
     }
-    for(i=0; i<n; i++)
+    for(i=1; i<=n; i++)
     {
-        for(j=0; j<70; j++)
+        for(j=1; j<=70; j++)
         {
-            if(j >= p[i] && j <= q[i] )
+            if(j >= q[i] && j <= r[i])
             {
                 printf("x");
             }
