@@ -10,8 +10,15 @@ int main()
     }
     for(i=1; i<n; i++)
     {
-       j++;
+        palin[i] = i;
+        //printf("%d ",palin[i]);
+        if(n <= 10)
+        {
+            if(palin[i]/i != 0)
+            //printf("%d ",palin[i]);
+            j++;
+        }
     }
-     printf("%d ",j);
-
+    printf("%d",j);
+    return 0;
 }
