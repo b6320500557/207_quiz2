@@ -11,11 +11,9 @@ int main()
     for(i=1; i<n; i++)
     {
         palin[i] = i;
-        //printf("%d ",palin[i]);
         if(n <= 10)
         {
             if(palin[i]/i != 0)
-            //printf("%d ",palin[i]);
             j++;
         }
     }
