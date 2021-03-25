@@ -3,7 +3,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int i,j=0,k,palin[n];
+    int i,j=0,k=0,palin[n],palind;
     for(i=0; i<n; i++)
     {
         palin[i] = 0;
@@ -11,12 +11,6 @@ int main()
     for(i=1; i<n; i++)
     {
         palin[i] = i;
-        if(n <= 10)
-        {
-            if(palin[i]/i != 0)
-            j++;
-        }
     }
-    printf("%d",j);
     return 0;
 }
